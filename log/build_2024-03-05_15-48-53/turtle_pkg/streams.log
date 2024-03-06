@@ -1,0 +1,19 @@
+[2.515s] Invoking command in '/home/sdh/robot_ws/build/turtle_pkg': PYTHONPATH=/home/sdh/robot_ws/build/turtle_pkg/prefix_override:/home/sdh/robot_ws/install/turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sdh/robot_ws/build/turtle_pkg/build --no-deps install_data
+[2.783s] running develop
+[2.928s] running egg_info
+[2.928s] writing turtle_pkg.egg-info/PKG-INFO
+[2.928s] writing dependency_links to turtle_pkg.egg-info/dependency_links.txt
+[2.929s] writing entry points to turtle_pkg.egg-info/entry_points.txt
+[2.929s] writing requirements to turtle_pkg.egg-info/requires.txt
+[2.929s] writing top-level names to turtle_pkg.egg-info/top_level.txt
+[2.963s] reading manifest file 'turtle_pkg.egg-info/SOURCES.txt'
+[2.964s] writing manifest file 'turtle_pkg.egg-info/SOURCES.txt'
+[3.002s] running build_ext
+[3.002s] Creating /home/sdh/robot_ws/install/turtle_pkg/lib/python3.8/site-packages/turtle-pkg.egg-link (link to .)
+[3.003s] Installing remote_tb3 script to /home/sdh/robot_ws/install/turtle_pkg/lib/turtle_pkg
+[3.003s] Installing remote_turtle script to /home/sdh/robot_ws/install/turtle_pkg/lib/turtle_pkg
+[3.003s] Installing sub_turtle_pose script to /home/sdh/robot_ws/install/turtle_pkg/lib/turtle_pkg
+[3.004s] 
+[3.004s] Installed /home/sdh/robot_ws/build/turtle_pkg
+[3.004s] running install_data
+[3.030s] Invoked command in '/home/sdh/robot_ws/build/turtle_pkg' returned '0': PYTHONPATH=/home/sdh/robot_ws/build/turtle_pkg/prefix_override:/home/sdh/robot_ws/install/turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sdh/robot_ws/build/turtle_pkg/build --no-deps install_data

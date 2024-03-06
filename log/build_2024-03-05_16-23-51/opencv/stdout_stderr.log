@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing opencv.egg-info/PKG-INFO
+writing dependency_links to opencv.egg-info/dependency_links.txt
+writing entry points to opencv.egg-info/entry_points.txt
+writing requirements to opencv.egg-info/requires.txt
+writing top-level names to opencv.egg-info/top_level.txt
+reading manifest file 'opencv.egg-info/SOURCES.txt'
+writing manifest file 'opencv.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv.egg-link (link to .)
+Installing grayscale script to /home/sdh/robot_ws/install/opencv/lib/opencv
+
+Installed /home/sdh/robot_ws/build/opencv
+running install_data

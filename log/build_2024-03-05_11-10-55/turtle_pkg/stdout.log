@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing turtle_pkg.egg-info/PKG-INFO
+writing dependency_links to turtle_pkg.egg-info/dependency_links.txt
+writing entry points to turtle_pkg.egg-info/entry_points.txt
+writing requirements to turtle_pkg.egg-info/requires.txt
+writing top-level names to turtle_pkg.egg-info/top_level.txt
+reading manifest file 'turtle_pkg.egg-info/SOURCES.txt'
+writing manifest file 'turtle_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sdh/robot_ws/install/turtle_pkg/lib/python3.8/site-packages/turtle-pkg.egg-link (link to .)
+Installing remote_turtle script to /home/sdh/robot_ws/install/turtle_pkg/lib/turtle_pkg
+Installing sub_turtle_pose script to /home/sdh/robot_ws/install/turtle_pkg/lib/turtle_pkg
+
+Installed /home/sdh/robot_ws/build/turtle_pkg
+running install_data

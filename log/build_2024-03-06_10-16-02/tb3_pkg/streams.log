@@ -1,0 +1,21 @@
+[2.341s] Invoking command in '/home/sdh/robot_ws/build/tb3_pkg': PYTHONPATH=/home/sdh/robot_ws/build/tb3_pkg/prefix_override:/home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sdh/robot_ws/build/tb3_pkg/build --no-deps install_data
+[2.588s] running develop
+[2.771s] running egg_info
+[2.772s] writing tb3_pkg.egg-info/PKG-INFO
+[2.772s] writing dependency_links to tb3_pkg.egg-info/dependency_links.txt
+[2.772s] writing entry points to tb3_pkg.egg-info/entry_points.txt
+[2.772s] writing requirements to tb3_pkg.egg-info/requires.txt
+[2.772s] writing top-level names to tb3_pkg.egg-info/top_level.txt
+[2.876s] reading manifest file 'tb3_pkg.egg-info/SOURCES.txt'
+[2.877s] writing manifest file 'tb3_pkg.egg-info/SOURCES.txt'
+[2.911s] running build_ext
+[2.926s] Creating /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3-pkg.egg-link (link to .)
+[2.927s] Installing pub_tb3_pose2d script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[2.927s] Installing remote_tb3 script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[2.927s] Installing sub_laser script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[2.927s] Installing sub_odom script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[2.928s] Installing test_move_tb3 script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[2.928s] 
+[2.928s] Installed /home/sdh/robot_ws/build/tb3_pkg
+[2.928s] running install_data
+[2.950s] Invoked command in '/home/sdh/robot_ws/build/tb3_pkg' returned '0': PYTHONPATH=/home/sdh/robot_ws/build/tb3_pkg/prefix_override:/home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sdh/robot_ws/build/tb3_pkg/build --no-deps install_data

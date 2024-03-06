@@ -1,0 +1,25 @@
+running develop
+Removing /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv.egg-link (link to .)
+running egg_info
+writing ../../build/opencv/opencv.egg-info/PKG-INFO
+writing dependency_links to ../../build/opencv/opencv.egg-info/dependency_links.txt
+writing entry points to ../../build/opencv/opencv.egg-info/entry_points.txt
+writing requirements to ../../build/opencv/opencv.egg-info/requires.txt
+writing top-level names to ../../build/opencv/opencv.egg-info/top_level.txt
+reading manifest file '../../build/opencv/opencv.egg-info/SOURCES.txt'
+writing manifest file '../../build/opencv/opencv.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv
+copying /home/sdh/robot_ws/build/opencv/build/lib/opencv/__init__.py -> /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv
+copying /home/sdh/robot_ws/build/opencv/build/lib/opencv/grayscale.py -> /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv
+byte-compiling /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv/grayscale.py to grayscale.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/opencv/opencv.egg-info to /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv-0.0.0-py3.8.egg-info
+running install_scripts
+Installing grayscale script to /home/sdh/robot_ws/install/opencv/lib/opencv
+writing list of installed files to '/home/sdh/robot_ws/build/opencv/install.log'

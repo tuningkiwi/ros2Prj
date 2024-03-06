@@ -1,0 +1,21 @@
+[3.090s] Invoking command in '/home/sdh/robot_ws/build/py_pubsub': PYTHONPATH=/home/sdh/robot_ws/build/py_pubsub/prefix_override:/home/sdh/robot_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sdh/robot_ws/build/py_pubsub/build --no-deps install_data
+[3.319s] running develop
+[3.456s] running egg_info
+[3.456s] writing py_pubsub.egg-info/PKG-INFO
+[3.457s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[3.457s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[3.457s] writing requirements to py_pubsub.egg-info/requires.txt
+[3.457s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[3.488s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[3.489s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[3.523s] running build_ext
+[3.523s] Creating /home/sdh/robot_ws/install/py_pubsub/lib/python3.8/site-packages/py-pubsub.egg-link (link to .)
+[3.524s] Installing listener script to /home/sdh/robot_ws/install/py_pubsub/lib/py_pubsub
+[3.524s] Installing pub_by_kb script to /home/sdh/robot_ws/install/py_pubsub/lib/py_pubsub
+[3.525s] Installing sub_by_kb script to /home/sdh/robot_ws/install/py_pubsub/lib/py_pubsub
+[3.525s] Installing talker script to /home/sdh/robot_ws/install/py_pubsub/lib/py_pubsub
+[3.525s] Installing timer_test script to /home/sdh/robot_ws/install/py_pubsub/lib/py_pubsub
+[3.525s] 
+[3.525s] Installed /home/sdh/robot_ws/build/py_pubsub
+[3.525s] running install_data
+[3.970s] Invoked command in '/home/sdh/robot_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/sdh/robot_ws/build/py_pubsub/prefix_override:/home/sdh/robot_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sdh/robot_ws/build/py_pubsub/build --no-deps install_data

@@ -1,0 +1,21 @@
+[7.446s] Invoking command in '/home/sdh/robot_ws/src/opencv': PYTHONPATH=/home/sdh/robot_ws/build/opencv/prefix_override:/home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv build --build-base /home/sdh/robot_ws/build/opencv/build install --record /home/sdh/robot_ws/build/opencv/install.log --install-scripts $base/lib/opencv --single-version-externally-managed
+[7.702s] running egg_info
+[7.702s] writing ../../build/opencv/opencv.egg-info/PKG-INFO
+[7.703s] writing dependency_links to ../../build/opencv/opencv.egg-info/dependency_links.txt
+[7.703s] writing entry points to ../../build/opencv/opencv.egg-info/entry_points.txt
+[7.703s] writing requirements to ../../build/opencv/opencv.egg-info/requires.txt
+[7.703s] writing top-level names to ../../build/opencv/opencv.egg-info/top_level.txt
+[7.740s] reading manifest file '../../build/opencv/opencv.egg-info/SOURCES.txt'
+[7.741s] writing manifest file '../../build/opencv/opencv.egg-info/SOURCES.txt'
+[7.741s] running build
+[7.741s] running build_py
+[7.742s] running install
+[7.743s] running install_lib
+[7.744s] running install_data
+[7.745s] running install_egg_info
+[7.747s] removing '/home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv-0.0.0-py3.8.egg-info' (and everything under it)
+[7.747s] Copying ../../build/opencv/opencv.egg-info to /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv-0.0.0-py3.8.egg-info
+[7.748s] running install_scripts
+[7.766s] Installing grayscale script to /home/sdh/robot_ws/install/opencv/lib/opencv
+[7.766s] writing list of installed files to '/home/sdh/robot_ws/build/opencv/install.log'
+[7.802s] Invoked command in '/home/sdh/robot_ws/src/opencv' returned '0': PYTHONPATH=/home/sdh/robot_ws/build/opencv/prefix_override:/home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv build --build-base /home/sdh/robot_ws/build/opencv/build install --record /home/sdh/robot_ws/build/opencv/install.log --install-scripts $base/lib/opencv --single-version-externally-managed

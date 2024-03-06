@@ -1,0 +1,7 @@
+[console_scripts]
+listener = py_pubsub.minimal_sub:main
+pub_by_kb = py_pubsub.pub_by_kb:main
+sub_by_kb = py_pubsub.sub_by_kb:main
+talker = py_pubsub.minimal_pub:main
+timer_test = py_pubsub.timer_test:main
+

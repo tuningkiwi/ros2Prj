@@ -1,0 +1,25 @@
+[5.494s] Invoking command in '/home/sdh/robot_ws/src/tb3_pkg': PYTHONPATH=/home/sdh/robot_ws/build/tb3_pkg/prefix_override:/home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tb3_pkg build --build-base /home/sdh/robot_ws/build/tb3_pkg/build install --record /home/sdh/robot_ws/build/tb3_pkg/install.log --install-scripts $base/lib/tb3_pkg --single-version-externally-managed
+[5.736s] running egg_info
+[5.736s] writing ../../build/tb3_pkg/tb3_pkg.egg-info/PKG-INFO
+[5.737s] writing dependency_links to ../../build/tb3_pkg/tb3_pkg.egg-info/dependency_links.txt
+[5.737s] writing entry points to ../../build/tb3_pkg/tb3_pkg.egg-info/entry_points.txt
+[5.737s] writing requirements to ../../build/tb3_pkg/tb3_pkg.egg-info/requires.txt
+[5.737s] writing top-level names to ../../build/tb3_pkg/tb3_pkg.egg-info/top_level.txt
+[5.772s] reading manifest file '../../build/tb3_pkg/tb3_pkg.egg-info/SOURCES.txt'
+[5.773s] writing manifest file '../../build/tb3_pkg/tb3_pkg.egg-info/SOURCES.txt'
+[5.773s] running build
+[5.773s] running build_py
+[5.774s] running install
+[5.775s] running install_lib
+[5.777s] running install_data
+[5.777s] running install_egg_info
+[5.779s] removing '/home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[5.779s] Copying ../../build/tb3_pkg/tb3_pkg.egg-info to /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg-0.0.0-py3.8.egg-info
+[5.780s] running install_scripts
+[5.800s] Installing pub_tb3_pose2d script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[5.800s] Installing remote_tb3 script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[5.800s] Installing sub_laser script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[5.801s] Installing sub_odom script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[5.801s] Installing test_move_tb3 script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[5.801s] writing list of installed files to '/home/sdh/robot_ws/build/tb3_pkg/install.log'
+[5.835s] Invoked command in '/home/sdh/robot_ws/src/tb3_pkg' returned '0': PYTHONPATH=/home/sdh/robot_ws/build/tb3_pkg/prefix_override:/home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tb3_pkg build --build-base /home/sdh/robot_ws/build/tb3_pkg/build install --record /home/sdh/robot_ws/build/tb3_pkg/install.log --install-scripts $base/lib/tb3_pkg --single-version-externally-managed

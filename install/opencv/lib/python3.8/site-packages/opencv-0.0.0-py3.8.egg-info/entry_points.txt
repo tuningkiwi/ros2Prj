@@ -1,0 +1,3 @@
+[console_scripts]
+grayscale = opencv.grayscale:main
+

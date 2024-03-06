@@ -1,0 +1,7 @@
+[console_scripts]
+pub_tb3_pose2d = tb3_pkg.pub_tb3_pose2d:main
+remote_tb3 = tb3_pkg.remote_tb3:main
+sub_laser = tb3_pkg.sub_laser:main
+sub_odom = tb3_pkg.sub_odom:main
+test_move_tb3 = tb3_pkg.test_move_tb3:main
+

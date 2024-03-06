@@ -1,0 +1,29 @@
+[5.765s] Invoking command in '/home/sdh/robot_ws/build/tb3_pkg': PYTHONPATH=/home/sdh/robot_ws/build/tb3_pkg/prefix_override:/home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sdh/robot_ws/build/tb3_pkg/build --no-deps install_data
+[6.014s] running develop
+[6.166s] running egg_info
+[6.167s] creating tb3_pkg.egg-info
+[6.167s] writing tb3_pkg.egg-info/PKG-INFO
+[6.167s] writing dependency_links to tb3_pkg.egg-info/dependency_links.txt
+[6.167s] writing entry points to tb3_pkg.egg-info/entry_points.txt
+[6.167s] writing requirements to tb3_pkg.egg-info/requires.txt
+[6.167s] writing top-level names to tb3_pkg.egg-info/top_level.txt
+[6.223s] writing manifest file 'tb3_pkg.egg-info/SOURCES.txt'
+[6.277s] reading manifest file 'tb3_pkg.egg-info/SOURCES.txt'
+[6.278s] writing manifest file 'tb3_pkg.egg-info/SOURCES.txt'
+[6.338s] running build_ext
+[6.338s] Creating /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/site.py
+[6.341s] Creating /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3-pkg.egg-link (link to .)
+[6.342s] Installing pub_tb3_pose2d script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[6.342s] Installing remote_tb3 script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[6.342s] Installing sub_laser script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[6.342s] Installing sub_odom script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[6.342s] Installing test_move_tb3 script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+[6.343s] 
+[6.343s] Installed /home/sdh/robot_ws/build/tb3_pkg
+[6.343s] running install_data
+[6.343s] creating /home/sdh/robot_ws/install/tb3_pkg/share/ament_index
+[6.343s] creating /home/sdh/robot_ws/install/tb3_pkg/share/ament_index/resource_index
+[6.343s] creating /home/sdh/robot_ws/install/tb3_pkg/share/ament_index/resource_index/packages
+[6.343s] copying resource/tb3_pkg -> /home/sdh/robot_ws/install/tb3_pkg/share/ament_index/resource_index/packages
+[6.343s] copying package.xml -> /home/sdh/robot_ws/install/tb3_pkg/share/tb3_pkg
+[7.349s] Invoked command in '/home/sdh/robot_ws/build/tb3_pkg' returned '0': PYTHONPATH=/home/sdh/robot_ws/build/tb3_pkg/prefix_override:/home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sdh/robot_ws/build/tb3_pkg/build --no-deps install_data

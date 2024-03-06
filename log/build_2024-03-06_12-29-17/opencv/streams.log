@@ -1,0 +1,29 @@
+[7.778s] Invoking command in '/home/sdh/robot_ws/build/opencv': PYTHONPATH=/home/sdh/robot_ws/build/opencv/prefix_override:/home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/sdh/robot_ws/build/opencv/build
+[8.035s] running develop
+[8.185s] Removing /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv.egg-link (link to .)
+[8.226s] Invoked command in '/home/sdh/robot_ws/build/opencv' returned '0': PYTHONPATH=/home/sdh/robot_ws/build/opencv/prefix_override:/home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/sdh/robot_ws/build/opencv/build
+[8.231s] Invoking command in '/home/sdh/robot_ws/src/opencv': PYTHONPATH=/home/sdh/robot_ws/build/opencv/prefix_override:/home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv build --build-base /home/sdh/robot_ws/build/opencv/build install --record /home/sdh/robot_ws/build/opencv/install.log --install-scripts $base/lib/opencv --single-version-externally-managed
+[8.505s] running egg_info
+[8.505s] writing ../../build/opencv/opencv.egg-info/PKG-INFO
+[8.506s] writing dependency_links to ../../build/opencv/opencv.egg-info/dependency_links.txt
+[8.506s] writing entry points to ../../build/opencv/opencv.egg-info/entry_points.txt
+[8.507s] writing requirements to ../../build/opencv/opencv.egg-info/requires.txt
+[8.507s] writing top-level names to ../../build/opencv/opencv.egg-info/top_level.txt
+[8.556s] reading manifest file '../../build/opencv/opencv.egg-info/SOURCES.txt'
+[8.597s] writing manifest file '../../build/opencv/opencv.egg-info/SOURCES.txt'
+[8.598s] running build
+[8.598s] running build_py
+[8.601s] running install
+[8.602s] running install_lib
+[8.603s] creating /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv
+[8.604s] copying /home/sdh/robot_ws/build/opencv/build/lib/opencv/__init__.py -> /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv
+[8.604s] copying /home/sdh/robot_ws/build/opencv/build/lib/opencv/grayscale.py -> /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv
+[8.608s] byte-compiling /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv/__init__.py to __init__.cpython-38.pyc
+[8.610s] byte-compiling /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv/grayscale.py to grayscale.cpython-38.pyc
+[8.610s] running install_data
+[8.626s] running install_egg_info
+[8.629s] Copying ../../build/opencv/opencv.egg-info to /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv-0.0.0-py3.8.egg-info
+[8.632s] running install_scripts
+[8.668s] Installing grayscale script to /home/sdh/robot_ws/install/opencv/lib/opencv
+[8.669s] writing list of installed files to '/home/sdh/robot_ws/build/opencv/install.log'
+[9.350s] Invoked command in '/home/sdh/robot_ws/src/opencv' returned '0': PYTHONPATH=/home/sdh/robot_ws/build/opencv/prefix_override:/home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv build --build-base /home/sdh/robot_ws/build/opencv/build install --record /home/sdh/robot_ws/build/opencv/install.log --install-scripts $base/lib/opencv --single-version-externally-managed

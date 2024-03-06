@@ -1,0 +1,4 @@
+[console_scripts]
+pub_led_msg = stm32.pub_led_msg:main
+sub_led_msg = stm32.sub_led_msg:main
+

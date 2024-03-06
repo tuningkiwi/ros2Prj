@@ -1,0 +1,40 @@
+[6.561s] Invoking command in '/home/sdh/robot_ws/src/stm32': PYTHONPATH=/home/sdh/robot_ws/build/stm32/prefix_override:/home/sdh/robot_ws/install/stm32/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/stm32 build --build-base /home/sdh/robot_ws/build/stm32/build install --record /home/sdh/robot_ws/build/stm32/install.log --install-scripts $base/lib/stm32 --single-version-externally-managed
+[6.937s] running egg_info
+[6.938s] creating ../../build/stm32/stm32.egg-info
+[6.938s] writing ../../build/stm32/stm32.egg-info/PKG-INFO
+[6.939s] writing dependency_links to ../../build/stm32/stm32.egg-info/dependency_links.txt
+[6.939s] writing entry points to ../../build/stm32/stm32.egg-info/entry_points.txt
+[6.939s] writing requirements to ../../build/stm32/stm32.egg-info/requires.txt
+[6.939s] writing top-level names to ../../build/stm32/stm32.egg-info/top_level.txt
+[6.997s] writing manifest file '../../build/stm32/stm32.egg-info/SOURCES.txt'
+[7.061s] reading manifest file '../../build/stm32/stm32.egg-info/SOURCES.txt'
+[7.062s] writing manifest file '../../build/stm32/stm32.egg-info/SOURCES.txt'
+[7.062s] running build
+[7.062s] running build_py
+[7.062s] creating /home/sdh/robot_ws/build/stm32/build
+[7.062s] creating /home/sdh/robot_ws/build/stm32/build/lib
+[7.063s] creating /home/sdh/robot_ws/build/stm32/build/lib/stm32
+[7.063s] copying stm32/__init__.py -> /home/sdh/robot_ws/build/stm32/build/lib/stm32
+[7.063s] copying stm32/pub_led_msg.py -> /home/sdh/robot_ws/build/stm32/build/lib/stm32
+[7.063s] copying stm32/getchar.py -> /home/sdh/robot_ws/build/stm32/build/lib/stm32
+[7.063s] running install
+[7.064s] running install_lib
+[7.066s] creating /home/sdh/robot_ws/install/stm32/lib/python3.8/site-packages/stm32
+[7.066s] copying /home/sdh/robot_ws/build/stm32/build/lib/stm32/__init__.py -> /home/sdh/robot_ws/install/stm32/lib/python3.8/site-packages/stm32
+[7.066s] copying /home/sdh/robot_ws/build/stm32/build/lib/stm32/pub_led_msg.py -> /home/sdh/robot_ws/install/stm32/lib/python3.8/site-packages/stm32
+[7.066s] copying /home/sdh/robot_ws/build/stm32/build/lib/stm32/getchar.py -> /home/sdh/robot_ws/install/stm32/lib/python3.8/site-packages/stm32
+[7.067s] byte-compiling /home/sdh/robot_ws/install/stm32/lib/python3.8/site-packages/stm32/__init__.py to __init__.cpython-38.pyc
+[7.069s] byte-compiling /home/sdh/robot_ws/install/stm32/lib/python3.8/site-packages/stm32/pub_led_msg.py to pub_led_msg.cpython-38.pyc
+[7.069s] byte-compiling /home/sdh/robot_ws/install/stm32/lib/python3.8/site-packages/stm32/getchar.py to getchar.cpython-38.pyc
+[7.070s] running install_data
+[7.071s] creating /home/sdh/robot_ws/install/stm32/share/ament_index
+[7.071s] creating /home/sdh/robot_ws/install/stm32/share/ament_index/resource_index
+[7.071s] creating /home/sdh/robot_ws/install/stm32/share/ament_index/resource_index/packages
+[7.071s] copying resource/stm32 -> /home/sdh/robot_ws/install/stm32/share/ament_index/resource_index/packages
+[7.071s] copying package.xml -> /home/sdh/robot_ws/install/stm32/share/stm32
+[7.071s] running install_egg_info
+[7.074s] Copying ../../build/stm32/stm32.egg-info to /home/sdh/robot_ws/install/stm32/lib/python3.8/site-packages/stm32-0.0.0-py3.8.egg-info
+[7.075s] running install_scripts
+[7.103s] Installing pub_led_msg script to /home/sdh/robot_ws/install/stm32/lib/stm32
+[7.103s] writing list of installed files to '/home/sdh/robot_ws/build/stm32/install.log'
+[7.135s] Invoked command in '/home/sdh/robot_ws/src/stm32' returned '0': PYTHONPATH=/home/sdh/robot_ws/build/stm32/prefix_override:/home/sdh/robot_ws/install/stm32/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/stm32 build --build-base /home/sdh/robot_ws/build/stm32/build install --record /home/sdh/robot_ws/build/stm32/install.log --install-scripts $base/lib/stm32 --single-version-externally-managed

@@ -1,0 +1,23 @@
+[5.104s] Invoking command in '/home/sdh/robot_ws/src/turtle_pkg': PYTHONPATH=/home/sdh/robot_ws/build/turtle_pkg/prefix_override:/home/sdh/robot_ws/install/turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_pkg build --build-base /home/sdh/robot_ws/build/turtle_pkg/build install --record /home/sdh/robot_ws/build/turtle_pkg/install.log --install-scripts $base/lib/turtle_pkg --single-version-externally-managed
+[5.391s] running egg_info
+[5.392s] writing ../../build/turtle_pkg/turtle_pkg.egg-info/PKG-INFO
+[5.393s] writing dependency_links to ../../build/turtle_pkg/turtle_pkg.egg-info/dependency_links.txt
+[5.393s] writing entry points to ../../build/turtle_pkg/turtle_pkg.egg-info/entry_points.txt
+[5.394s] writing requirements to ../../build/turtle_pkg/turtle_pkg.egg-info/requires.txt
+[5.394s] writing top-level names to ../../build/turtle_pkg/turtle_pkg.egg-info/top_level.txt
+[5.429s] reading manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[5.429s] writing manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[5.430s] running build
+[5.430s] running build_py
+[5.430s] running install
+[5.431s] running install_lib
+[5.432s] running install_data
+[5.433s] running install_egg_info
+[5.434s] removing '/home/sdh/robot_ws/install/turtle_pkg/lib/python3.8/site-packages/turtle_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[5.434s] Copying ../../build/turtle_pkg/turtle_pkg.egg-info to /home/sdh/robot_ws/install/turtle_pkg/lib/python3.8/site-packages/turtle_pkg-0.0.0-py3.8.egg-info
+[5.436s] running install_scripts
+[5.452s] Installing remote_tb3 script to /home/sdh/robot_ws/install/turtle_pkg/lib/turtle_pkg
+[5.453s] Installing remote_turtle script to /home/sdh/robot_ws/install/turtle_pkg/lib/turtle_pkg
+[5.453s] Installing sub_turtle_pose script to /home/sdh/robot_ws/install/turtle_pkg/lib/turtle_pkg
+[5.453s] writing list of installed files to '/home/sdh/robot_ws/build/turtle_pkg/install.log'
+[5.879s] Invoked command in '/home/sdh/robot_ws/src/turtle_pkg' returned '0': PYTHONPATH=/home/sdh/robot_ws/build/turtle_pkg/prefix_override:/home/sdh/robot_ws/install/turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_pkg build --build-base /home/sdh/robot_ws/build/turtle_pkg/build install --record /home/sdh/robot_ws/build/turtle_pkg/install.log --install-scripts $base/lib/turtle_pkg --single-version-externally-managed

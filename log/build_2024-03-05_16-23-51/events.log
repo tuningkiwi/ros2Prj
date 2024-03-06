@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (opencv) JobQueued: {'identifier': 'opencv', 'dependencies': OrderedDict()}
+[0.000661] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000693] (turtle_pkg) JobQueued: {'identifier': 'turtle_pkg', 'dependencies': OrderedDict()}
+[0.000713] (opencv) JobStarted: {'identifier': 'opencv'}
+[0.099890] (-) TimerEvent: {}
+[0.200240] (-) TimerEvent: {}
+[0.300480] (-) TimerEvent: {}
+[0.401069] (-) TimerEvent: {}
+[0.502040] (-) TimerEvent: {}
+[0.602830] (-) TimerEvent: {}
+[0.610113] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.702947] (-) TimerEvent: {}
+[0.803335] (-) TimerEvent: {}
+[0.904146] (-) TimerEvent: {}
+[1.004546] (-) TimerEvent: {}
+[1.105601] (-) TimerEvent: {}
+[1.206132] (-) TimerEvent: {}
+[1.210650] (turtle_pkg) JobStarted: {'identifier': 'turtle_pkg'}
+[1.306481] (-) TimerEvent: {}
+[1.407374] (-) TimerEvent: {}
+[1.508501] (-) TimerEvent: {}
+[1.608755] (-) TimerEvent: {}
+[1.710117] (-) TimerEvent: {}
+[1.811217] (-) TimerEvent: {}
+[1.911980] (-) TimerEvent: {}
+[2.012448] (-) TimerEvent: {}
+[2.112953] (-) TimerEvent: {}
+[2.213651] (-) TimerEvent: {}
+[2.314064] (-) TimerEvent: {}
+[2.415034] (-) TimerEvent: {}
+[2.515581] (-) TimerEvent: {}
+[2.616408] (-) TimerEvent: {}
+[2.716886] (-) TimerEvent: {}
+[2.817203] (-) TimerEvent: {}
+[2.917781] (-) TimerEvent: {}
+[3.018202] (-) TimerEvent: {}
+[3.118539] (-) TimerEvent: {}
+[3.218876] (-) TimerEvent: {}
+[3.319233] (-) TimerEvent: {}
+[3.419707] (-) TimerEvent: {}
+[3.520344] (-) TimerEvent: {}
+[3.621040] (-) TimerEvent: {}
+[3.721711] (-) TimerEvent: {}
+[3.822371] (-) TimerEvent: {}
+[3.923615] (-) TimerEvent: {}
+[4.023933] (-) TimerEvent: {}
+[4.124361] (-) TimerEvent: {}
+[4.224621] (-) TimerEvent: {}
+[4.324934] (-) TimerEvent: {}
+[4.421654] (opencv) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sdh/robot_ws/build/opencv/build', '--no-deps', 'install_data'], 'cwd': '/home/sdh/robot_ws/build/opencv', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'sdh', 'LC_TIME': 'ko_KR.UTF-8', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1686', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/sdh', 'OLDPWD': '/home/sdh/robot_ws/install', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1501', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/sdh/robot_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/sdh/robot_ws/install:/home/sdh/turtlebot3_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'sdh', 'JOURNAL_STREAM': '8:46105', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/sdh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sdh/.local/bin', 'SESSION_MANAGER': 'local/sdh:@/tmp/.ICE-unix/1723,unix/sdh:/tmp/.ICE-unix/1723', 'INVOCATION_ID': '8f2cfb7b75fa463d89453584f1b96270', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/67d115d1_149c_4287_8353_eeceb8c2d4b4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.120', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/sdh/robot_ws/install/opencv:/home/sdh/turtlebot3_ws/install/turtlebot3_simulations:/home/sdh/turtlebot3_ws/install/turtlebot3_gazebo:/home/sdh/turtlebot3_ws/install/turtlebot3_fake_node:/home/sdh/robot_ws/install/turtle_pkg:/home/sdh/robot_ws/install/py_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/sdh/robot_ws/build/opencv', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sdh/robot_ws/build/opencv/prefix_override:/home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages:/home/sdh/robot_ws/build/opencv:/home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages:/home/sdh/robot_ws/build/turtle_pkg:/home/sdh/robot_ws/install/turtle_pkg/lib/python3.8/site-packages:/home/sdh/robot_ws/build/py_pubsub:/home/sdh/robot_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/sdh/turtlebot3_ws/install/turtlebot3_simulations:/home/sdh/turtlebot3_ws/install/turtlebot3_gazebo:/home/sdh/turtlebot3_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[4.428937] (-) TimerEvent: {}
+[4.437762] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sdh/robot_ws/build/py_pubsub/build', '--no-deps', 'install_data'], 'cwd': '/home/sdh/robot_ws/build/py_pubsub', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'sdh', 'LC_TIME': 'ko_KR.UTF-8', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1686', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/sdh', 'OLDPWD': '/home/sdh/robot_ws/install', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1501', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/sdh/robot_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/sdh/robot_ws/install:/home/sdh/turtlebot3_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'sdh', 'JOURNAL_STREAM': '8:46105', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/sdh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sdh/.local/bin', 'SESSION_MANAGER': 'local/sdh:@/tmp/.ICE-unix/1723,unix/sdh:/tmp/.ICE-unix/1723', 'INVOCATION_ID': '8f2cfb7b75fa463d89453584f1b96270', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/67d115d1_149c_4287_8353_eeceb8c2d4b4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.120', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/sdh/robot_ws/install/opencv:/home/sdh/turtlebot3_ws/install/turtlebot3_simulations:/home/sdh/turtlebot3_ws/install/turtlebot3_gazebo:/home/sdh/turtlebot3_ws/install/turtlebot3_fake_node:/home/sdh/robot_ws/install/turtle_pkg:/home/sdh/robot_ws/install/py_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/sdh/robot_ws/build/py_pubsub', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sdh/robot_ws/build/py_pubsub/prefix_override:/home/sdh/robot_ws/install/py_pubsub/lib/python3.8/site-packages:/home/sdh/robot_ws/build/opencv:/home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages:/home/sdh/robot_ws/build/turtle_pkg:/home/sdh/robot_ws/install/turtle_pkg/lib/python3.8/site-packages:/home/sdh/robot_ws/build/py_pubsub:/home/sdh/robot_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/sdh/turtlebot3_ws/install/turtlebot3_simulations:/home/sdh/turtlebot3_ws/install/turtlebot3_gazebo:/home/sdh/turtlebot3_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[4.444365] (turtle_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sdh/robot_ws/build/turtle_pkg/build', '--no-deps', 'install_data'], 'cwd': '/home/sdh/robot_ws/build/turtle_pkg', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'sdh', 'LC_TIME': 'ko_KR.UTF-8', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1686', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/sdh', 'OLDPWD': '/home/sdh/robot_ws/install', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1501', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/sdh/robot_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/sdh/robot_ws/install:/home/sdh/turtlebot3_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'sdh', 'JOURNAL_STREAM': '8:46105', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sdh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/sdh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sdh/.local/bin', 'SESSION_MANAGER': 'local/sdh:@/tmp/.ICE-unix/1723,unix/sdh:/tmp/.ICE-unix/1723', 'INVOCATION_ID': '8f2cfb7b75fa463d89453584f1b96270', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/67d115d1_149c_4287_8353_eeceb8c2d4b4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.120', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/sdh/robot_ws/install/opencv:/home/sdh/turtlebot3_ws/install/turtlebot3_simulations:/home/sdh/turtlebot3_ws/install/turtlebot3_gazebo:/home/sdh/turtlebot3_ws/install/turtlebot3_fake_node:/home/sdh/robot_ws/install/turtle_pkg:/home/sdh/robot_ws/install/py_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/sdh/robot_ws/build/turtle_pkg', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sdh/robot_ws/build/turtle_pkg/prefix_override:/home/sdh/robot_ws/install/turtle_pkg/lib/python3.8/site-packages:/home/sdh/robot_ws/build/opencv:/home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages:/home/sdh/robot_ws/build/turtle_pkg:/home/sdh/robot_ws/install/turtle_pkg/lib/python3.8/site-packages:/home/sdh/robot_ws/build/py_pubsub:/home/sdh/robot_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/sdh/turtlebot3_ws/install/turtlebot3_simulations:/home/sdh/turtlebot3_ws/install/turtlebot3_gazebo:/home/sdh/turtlebot3_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[4.528950] (-) TimerEvent: {}
+[4.629288] (-) TimerEvent: {}
+[4.681609] (opencv) StdoutLine: {'line': b'running develop\n'}
+[4.690680] (py_pubsub) StdoutLine: {'line': b'running develop\n'}
+[4.704412] (turtle_pkg) StdoutLine: {'line': b'running develop\n'}
+[4.729386] (-) TimerEvent: {}
+[4.821428] (opencv) StdoutLine: {'line': b'running egg_info\n'}
+[4.821694] (opencv) StdoutLine: {'line': b'writing opencv.egg-info/PKG-INFO\n'}
+[4.821871] (opencv) StdoutLine: {'line': b'writing dependency_links to opencv.egg-info/dependency_links.txt\n'}
+[4.822057] (opencv) StdoutLine: {'line': b'writing entry points to opencv.egg-info/entry_points.txt\n'}
+[4.822237] (opencv) StdoutLine: {'line': b'writing requirements to opencv.egg-info/requires.txt\n'}
+[4.822404] (opencv) StdoutLine: {'line': b'writing top-level names to opencv.egg-info/top_level.txt\n'}
+[4.829469] (-) TimerEvent: {}
+[4.830783] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[4.831009] (py_pubsub) StdoutLine: {'line': b'writing py_pubsub.egg-info/PKG-INFO\n'}
+[4.831184] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to py_pubsub.egg-info/dependency_links.txt\n'}
+[4.831355] (py_pubsub) StdoutLine: {'line': b'writing entry points to py_pubsub.egg-info/entry_points.txt\n'}
+[4.831543] (py_pubsub) StdoutLine: {'line': b'writing requirements to py_pubsub.egg-info/requires.txt\n'}
+[4.831696] (py_pubsub) StdoutLine: {'line': b'writing top-level names to py_pubsub.egg-info/top_level.txt\n'}
+[4.847165] (turtle_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.847426] (turtle_pkg) StdoutLine: {'line': b'writing turtle_pkg.egg-info/PKG-INFO\n'}
+[4.847616] (turtle_pkg) StdoutLine: {'line': b'writing dependency_links to turtle_pkg.egg-info/dependency_links.txt\n'}
+[4.847847] (turtle_pkg) StdoutLine: {'line': b'writing entry points to turtle_pkg.egg-info/entry_points.txt\n'}
+[4.848591] (turtle_pkg) StdoutLine: {'line': b'writing requirements to turtle_pkg.egg-info/requires.txt\n'}
+[4.848789] (turtle_pkg) StdoutLine: {'line': b'writing top-level names to turtle_pkg.egg-info/top_level.txt\n'}
+[4.855497] (opencv) StdoutLine: {'line': b"reading manifest file 'opencv.egg-info/SOURCES.txt'\n"}
+[4.856320] (opencv) StdoutLine: {'line': b"writing manifest file 'opencv.egg-info/SOURCES.txt'\n"}
+[4.872066] (py_pubsub) StdoutLine: {'line': b"reading manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[4.872939] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[4.881403] (turtle_pkg) StdoutLine: {'line': b"reading manifest file 'turtle_pkg.egg-info/SOURCES.txt'\n"}
+[4.882167] (turtle_pkg) StdoutLine: {'line': b"writing manifest file 'turtle_pkg.egg-info/SOURCES.txt'\n"}
+[4.891491] (opencv) StdoutLine: {'line': b'running build_ext\n'}
+[4.891860] (opencv) StdoutLine: {'line': b'Creating /home/sdh/robot_ws/install/opencv/lib/python3.8/site-packages/opencv.egg-link (link to .)\n'}
+[4.892622] (opencv) StdoutLine: {'line': b'Installing grayscale script to /home/sdh/robot_ws/install/opencv/lib/opencv\n'}
+[4.892881] (opencv) StdoutLine: {'line': b'\n'}
+[4.893007] (opencv) StdoutLine: {'line': b'Installed /home/sdh/robot_ws/build/opencv\n'}
+[4.893158] (opencv) StdoutLine: {'line': b'running install_data\n'}
+[4.915892] (py_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[4.916496] (py_pubsub) StdoutLine: {'line': b'Creating /home/sdh/robot_ws/install/py_pubsub/lib/python3.8/site-packages/py-pubsub.egg-link (link to .)\n'}
+[4.917649] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/sdh/robot_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.917926] (py_pubsub) StdoutLine: {'line': b'Installing pub_by_kb script to /home/sdh/robot_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.918120] (py_pubsub) StdoutLine: {'line': b'Installing sub_by_kb script to /home/sdh/robot_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.918280] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/sdh/robot_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.918437] (py_pubsub) StdoutLine: {'line': b'Installing timer_test script to /home/sdh/robot_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.918619] (py_pubsub) StdoutLine: {'line': b'\n'}
+[4.918791] (py_pubsub) StdoutLine: {'line': b'Installed /home/sdh/robot_ws/build/py_pubsub\n'}
+[4.918929] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[4.929622] (-) TimerEvent: {}
+[4.934282] (turtle_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[4.934865] (turtle_pkg) StdoutLine: {'line': b'Creating /home/sdh/robot_ws/install/turtle_pkg/lib/python3.8/site-packages/turtle-pkg.egg-link (link to .)\n'}
+[4.936472] (turtle_pkg) StdoutLine: {'line': b'Installing remote_tb3 script to /home/sdh/robot_ws/install/turtle_pkg/lib/turtle_pkg\n'}
+[4.936754] (turtle_pkg) StdoutLine: {'line': b'Installing remote_turtle script to /home/sdh/robot_ws/install/turtle_pkg/lib/turtle_pkg\n'}
+[4.936968] (turtle_pkg) StdoutLine: {'line': b'Installing sub_turtle_pose script to /home/sdh/robot_ws/install/turtle_pkg/lib/turtle_pkg\n'}
+[4.937164] (turtle_pkg) StdoutLine: {'line': b'\n'}
+[4.937289] (turtle_pkg) StdoutLine: {'line': b'Installed /home/sdh/robot_ws/build/turtle_pkg\n'}
+[4.937421] (turtle_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.941225] (opencv) CommandEnded: {'returncode': 0}
+[5.029798] (-) TimerEvent: {}
+[5.131377] (-) TimerEvent: {}
+[5.233197] (-) TimerEvent: {}
+[5.334691] (-) TimerEvent: {}
+[5.427817] (opencv) JobEnded: {'identifier': 'opencv', 'rc': 0}
+[5.428927] (py_pubsub) CommandEnded: {'returncode': 0}
+[5.434943] (-) TimerEvent: {}
+[5.537558] (-) TimerEvent: {}
+[5.638525] (-) TimerEvent: {}
+[5.739758] (-) TimerEvent: {}
+[5.838868] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[5.839185] (turtle_pkg) CommandEnded: {'returncode': 0}
+[5.839845] (-) TimerEvent: {}
+[5.940032] (-) TimerEvent: {}
+[6.040266] (-) TimerEvent: {}
+[6.140803] (-) TimerEvent: {}
+[6.241068] (-) TimerEvent: {}
+[6.244530] (turtle_pkg) JobEnded: {'identifier': 'turtle_pkg', 'rc': 0}
+[6.245281] (-) EventReactorShutdown: {}

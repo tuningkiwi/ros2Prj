@@ -1,0 +1,52 @@
+running develop
+Removing /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3-pkg.egg-link (link to .)
+running egg_info
+writing ../../build/tb3_pkg/tb3_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/tb3_pkg/tb3_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/tb3_pkg/tb3_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/tb3_pkg/tb3_pkg.egg-info/requires.txt
+writing top-level names to ../../build/tb3_pkg/tb3_pkg.egg-info/top_level.txt
+reading manifest file '../../build/tb3_pkg/tb3_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/tb3_pkg/tb3_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sdh/robot_ws/build/tb3_pkg/build
+creating /home/sdh/robot_ws/build/tb3_pkg/build/lib
+creating /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg
+copying tb3_pkg/pub_tb3_pose2d.py -> /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg
+copying tb3_pkg/__init__.py -> /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg
+copying tb3_pkg/move_tb3.py -> /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg
+copying tb3_pkg/getchar.py -> /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg
+copying tb3_pkg/remote_tb3.py -> /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg
+copying tb3_pkg/sub_odom.py -> /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg
+copying tb3_pkg/sub_laser.py -> /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg
+copying tb3_pkg/test_move_tb3.py -> /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg
+running install
+running install_lib
+creating /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg
+copying /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg/pub_tb3_pose2d.py -> /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg
+copying /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg/__init__.py -> /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg
+copying /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg/move_tb3.py -> /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg
+copying /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg/getchar.py -> /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg
+copying /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg/remote_tb3.py -> /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg
+copying /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg/sub_odom.py -> /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg
+copying /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg/sub_laser.py -> /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg
+copying /home/sdh/robot_ws/build/tb3_pkg/build/lib/tb3_pkg/test_move_tb3.py -> /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg
+byte-compiling /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg/pub_tb3_pose2d.py to pub_tb3_pose2d.cpython-38.pyc
+byte-compiling /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg/move_tb3.py to move_tb3.cpython-38.pyc
+byte-compiling /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg/getchar.py to getchar.cpython-38.pyc
+byte-compiling /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg/remote_tb3.py to remote_tb3.cpython-38.pyc
+byte-compiling /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg/sub_odom.py to sub_odom.cpython-38.pyc
+byte-compiling /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg/sub_laser.py to sub_laser.cpython-38.pyc
+byte-compiling /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg/test_move_tb3.py to test_move_tb3.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/tb3_pkg/tb3_pkg.egg-info to /home/sdh/robot_ws/install/tb3_pkg/lib/python3.8/site-packages/tb3_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing pub_tb3_pose2d script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+Installing remote_tb3 script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+Installing sub_laser script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+Installing sub_odom script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+Installing test_move_tb3 script to /home/sdh/robot_ws/install/tb3_pkg/lib/tb3_pkg
+writing list of installed files to '/home/sdh/robot_ws/build/tb3_pkg/install.log'
